@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(62, 100, 100);
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+}
+.container{
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    width: 500px;
+    background-color:white;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif; 
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(171, 170, 170);
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 2px solid gray;
+}
+.container-2{
+    display: grid;
+    grid-template-rows: repeat(6,50px);
+    padding: 20px;
+}
+.box-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+P{
+    color: rgb(98, 204, 169);
+    font-size: 14px;
+}
+input[type="text"]{
+    color: rgb(206, 206, 207);
+    width: 200px;
+}
+input[type="text"].email{
+    color: rgb(206, 206, 207);
+    width: 430px;
+}
+input[type="number"]{
+    width: 200px;
+}
+input[type="checkbox"]{
+    border-radius: 50%;
+}
+input[type="checkbox"]:checked{
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+input[type="range"]{
+    width: 150px;
+}
+.box-5-2-1{
+    display: flex;
+    gap: 10px;
+}
+.box-5-2-1-1 p{
+    background-color: rgb(98, 204, 169);
+    color: white;
+    font-size: 12px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: 3
+    0px;
+    
+}
+.box-6-1{
+    width: 200px;
+}
+.hobbie{
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    gap: 2px;
+}
+.gender{
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    gap: 2px;
+}
+select{
+    width: 210px;
+}
+.container-3{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+    background-color: rgb(171, 170, 170);
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: 2px solid gray;
+}
+button{
+    color: white;
+    background-color: rgb(98, 204, 169);
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: rgb(98, 204, 169);
+}
+button:focus{
+    color: rgb(184, 184, 184);
+    background-color: rgb(79, 148, 126);
+}
